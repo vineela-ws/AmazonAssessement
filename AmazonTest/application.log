@@ -1,0 +1,39 @@
+2022-06-12 17:58:10,438  INFO [main] SignUpPageTest:41 - Actions are performed on Signup pages
+2022-06-12 18:04:06,956  INFO [main] SignUpPageTest:36 - signUpTitle Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+2022-06-12 18:04:13,258  INFO [main] SignUpPageTest:42 - Actions are performed on Signup pages
+2022-06-12 18:11:46,220  INFO [main] AmazonGpPageTest:38 - amazonGpPageTitle Buy the latest LED TVs, 4K TVs and Android TVs online at Best Prices in India-Amazon.in | Shop by size, price, features and more
+2022-06-12 18:11:55,440  INFO [main] AmazonGpPageTest:45 - Samsung Brand are displayed
+2022-06-12 18:16:28,282  INFO [main] AmazonPageTest:39 - amazonPageTitle: Amazon.in
+2022-06-12 18:17:03,231  INFO [main] AmazonPageTest:46 - Actions are performed on Signup pages
+2022-06-12 19:40:00,972  INFO [main] AmazonGpPageTest:38 - amazonGpPageTitle: Buy the latest LED TVs, 4K TVs and Android TVs online at Best Prices in India-Amazon.in | Shop by size, price, features and more
+2022-06-12 19:40:08,643  INFO [main] AmazonPageTest:39 - amazonPageTitle: Amazon.in
+2022-06-12 19:40:11,587  INFO [main] SignUpPageTest:36 - signUpTitle: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+2022-06-12 19:40:18,916  INFO [main] AmazonGpPageTest:44 - Samsung Brand are displayed
+2022-06-12 19:40:52,256  INFO [main] AmazonPageTest:46 - Actions are performed on Amazon pages
+2022-06-12 19:40:57,542  INFO [main] SignUpPageTest:42 - Actions are performed on Signup pages
+2022-06-12 20:32:06,199 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-06-12 20:32:06,201 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2022-06-12 20:32:06,203 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2022-06-12 20:32:06,204 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2022-06-12 20:32:06,205 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/santh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2022-06-12 20:32:07,025 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-06-12 20:32:07,025 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2022-06-12 20:32:07,025 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2022-06-12 20:32:07,026 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2022-06-12 20:32:07,026 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/santh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2022-06-12 20:34:32,406  INFO [main] SignUpPageTest:36 - signUpTitle: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+2022-06-12 20:34:47,124  INFO [main] AmazonGpPageTest:38 - amazonGpPageTitle: Buy the latest LED TVs, 4K TVs and Android TVs online at Best Prices in India-Amazon.in | Shop by size, price, features and more
+2022-06-12 20:34:56,073  INFO [main] AmazonPageTest:39 - amazonPageTitle: Amazon.in
+2022-06-12 20:35:01,669  INFO [main] SignUpPageTest:42 - Actions are performed on Signup pages
+2022-06-12 20:35:08,763  INFO [main] AmazonGpPageTest:44 - Samsung Brand are displayed
+2022-06-12 20:36:03,517 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-06-12 20:36:03,520 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2022-06-12 20:36:03,522 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2022-06-12 20:36:03,524 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2022-06-12 20:36:03,525 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/santh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2022-06-12 20:36:03,877 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-06-12 20:36:03,878 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2022-06-12 20:36:03,878 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2022-06-12 20:36:03,879 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2022-06-12 20:36:03,879 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/santh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2022-06-12 20:57:15,599  INFO [main] SignUpPageTest:36 - signUpTitle: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
