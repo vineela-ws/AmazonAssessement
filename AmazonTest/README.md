@@ -15,6 +15,6 @@ Extent Reports
 ### Steps to clone execute the tests
 ```
 git clone https://github.com/vineela-ws/AmazonAssessement.git
-cd AmazonTest
+cd AmazonTest  or go to the project directory 
 mvn clean test
 ```
