@@ -14,7 +14,7 @@ Extent Reports
 
 ### Steps to clone execute the tests
 ```
-git clone https://github.com/naveenanimation20/PageObjectModel
-cd PageObjectModel
+git clone https://github.com/naveenanimation20/PageObjectModel](https://github.com/vineela-ws/AmazonAssessement.git
+cd AmazonAssessement
 mvn clean test
 ```
