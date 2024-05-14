@@ -11,6 +11,8 @@ import com.crm.qa.pages.AmazonGpPage;
 import com.crm.qa.pages.SignUpPage;
 import com.crm.qa.util.TestUtil;
 
+//It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >"
+
 public class AmazonGpPageTest extends TestBase {
 	SignUpPage signUpPage;
 	AmazonGpPage amazonGpPage;

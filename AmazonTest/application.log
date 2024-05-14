@@ -37,3 +37,6 @@
 2022-06-12 20:36:03,879 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
 2022-06-12 20:36:03,879 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/santh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
 2022-06-12 20:57:15,599  INFO [main] SignUpPageTest:36 - signUpTitle: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+2024-03-21 14:35:54,309  INFO [main] SignUpPageTest:36 - signUpTitle: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+2024-03-23 13:26:30,774  INFO [main] SignUpPageTest:46 - signUpTitle: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+2024-03-23 13:41:31,495  INFO [main] SignUpPageTest:46 - signUpTitle: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in

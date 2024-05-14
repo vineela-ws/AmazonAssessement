@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Amazon Application Test Automation Test Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
-  </listeners>
-  <test name="Amazon App Test Cases(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.crm.qa.testcases.AmazonPageTest">
+      <class name="com.crm.qa.testcases.SignUpPageTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="performActionsOnAmazonPage"/>
+          <include name="addresultsToTestRail"/>
+          <include name="performActionsOnSigupPage"/>
           <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.crm.qa.testcases.AmazonPageTest -->
+      </class> <!-- com.crm.qa.testcases.SignUpPageTest -->
     </classes>
-  </test> <!-- Amazon App Test Cases(failed) -->
-</suite> <!-- Failed suite [Amazon Application Test Automation Test Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.crm.qa.testcases.AmazonPageTest">
+      <class name="com.crm.qa.testcases.SignUpPageTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="performActionsOnAmazonPage"/>
+          <include name="addresultsToTestRail"/>
+          <include name="performActionsOnSigupPage"/>
           <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.crm.qa.testcases.AmazonPageTest -->
+      </class> <!-- com.crm.qa.testcases.SignUpPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

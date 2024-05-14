@@ -1,165 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-12T15:04:28Z" name="Amazon Application Test Automation Test Suite" finished-at="2022-06-12T15:06:03Z" duration-ms="94273">
+  <suite started-at="2024-03-23T08:11:27Z" name="Default suite" finished-at="2024-03-23T08:11:33Z" duration-ms="5949">
     <groups>
     </groups>
-    <test started-at="2022-06-12T15:04:28Z" name="Amazon App Test Cases" finished-at="2022-06-12T15:06:03Z" duration-ms="94273">
+    <test started-at="2024-03-23T08:11:27Z" name="Default test" finished-at="2024-03-23T08:11:33Z" duration-ms="5949">
       <class name="com.crm.qa.testcases.SignUpPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.SignUpPageTest@1a18644]" started-at="2022-06-12T20:34:28Z" name="setUp" finished-at="2022-06-12T20:34:32Z" duration-ms="3480" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.SignUpPageTest@79defdc]" started-at="2024-03-23T13:41:27Z" name="setUp" finished-at="2024-03-23T13:41:31Z" duration-ms="4065" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="signUpPageTitleTest()[pri:1, instance:com.crm.qa.testcases.SignUpPageTest@1a18644]" started-at="2022-06-12T20:34:32Z" name="signUpPageTitleTest" finished-at="2022-06-12T20:34:32Z" duration-ms="69" status="PASS">
+        <test-method signature="signUpPageTitleTest()[pri:1, instance:com.crm.qa.testcases.SignUpPageTest@79defdc]" started-at="2024-03-23T13:41:31Z" name="signUpPageTitleTest" finished-at="2024-03-23T13:41:31Z" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpPageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.SignUpPageTest@1a18644]" started-at="2022-06-12T20:34:32Z" name="tearDown" finished-at="2022-06-12T20:34:33Z" duration-ms="661" status="PASS">
+        <test-method is-config="true" signature="addresultsToTestRail(org.testng.ITestResult)[pri:0, instance:com.crm.qa.testcases.SignUpPageTest@79defdc]" started-at="2024-03-23T13:41:31Z" name="addresultsToTestRail" finished-at="2024-03-23T13:41:33Z" duration-ms="1591" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signUpPageTitleTest status=SUCCESS method=SignUpPageTest.signUpPageTitleTest()[pri:1, instance:com.crm.qa.testcases.SignUpPageTest@79defdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.SignUpPageTest@1a18644]" started-at="2022-06-12T20:34:56Z" name="setUp" finished-at="2022-06-12T20:34:59Z" duration-ms="2711" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="performActionsOnSigupPage()[pri:2, instance:com.crm.qa.testcases.SignUpPageTest@1a18644]" started-at="2022-06-12T20:34:59Z" name="performActionsOnSigupPage" finished-at="2022-06-12T20:35:01Z" duration-ms="2187" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- performActionsOnSigupPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.SignUpPageTest@1a18644]" started-at="2022-06-12T20:35:01Z" name="tearDown" finished-at="2022-06-12T20:35:02Z" duration-ms="683" status="PASS">
+        </test-method> <!-- addresultsToTestRail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.SignUpPageTest@79defdc]" started-at="2024-03-23T13:41:33Z" name="tearDown" finished-at="2024-03-23T13:41:33Z" duration-ms="240" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.crm.qa.testcases.SignUpPageTest -->
-      <class name="com.crm.qa.testcases.AmazonPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.AmazonPageTest@7e7be63f]" started-at="2022-06-12T20:34:47Z" name="setUp" finished-at="2022-06-12T20:34:56Z" duration-ms="8172" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyAmazonPageTitleTest()[pri:1, instance:com.crm.qa.testcases.AmazonPageTest@7e7be63f]" started-at="2022-06-12T20:34:56Z" name="verifyAmazonPageTitleTest" finished-at="2022-06-12T20:34:56Z" duration-ms="19" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAmazonPageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.AmazonPageTest@7e7be63f]" started-at="2022-06-12T20:34:56Z" name="tearDown" finished-at="2022-06-12T20:34:56Z" duration-ms="697" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.AmazonPageTest@7e7be63f]" started-at="2022-06-12T20:35:09Z" name="setUp" finished-at="2022-06-12T20:35:19Z" duration-ms="9927" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="performActionsOnAmazonPage()[pri:2, instance:com.crm.qa.testcases.AmazonPageTest@7e7be63f]" started-at="2022-06-12T20:35:19Z" name="performActionsOnAmazonPage" finished-at="2022-06-12T20:36:02Z" duration-ms="42951" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@cel_widget_id='MAIN-SEARCH_RESULTS-2']"}
-  (Session info: chrome=102.0.5005.63)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'SANTHOSH', ip: '192.168.29.131', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\santh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63496}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 48109821dbb9e4ffd6b60f852e065026
-*** Element info: {Using=xpath, value=//div[@cel_widget_id='MAIN-SEARCH_RESULTS-2']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@cel_widget_id='MAIN-SEARCH_RESULTS-2']"}
-  (Session info: chrome=102.0.5005.63)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'SANTHOSH', ip: '192.168.29.131', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\santh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63496}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 48109821dbb9e4ffd6b60f852e065026
-*** Element info: {Using=xpath, value=//div[@cel_widget_id='MAIN-SEARCH_RESULTS-2']}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy11.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy15.click(Unknown Source)
-	at com.crm.qa.pages.AmazonPage.clickSecondHighestProduct(AmazonPage.java:55)
-	at com.crm.qa.pages.AmazonPage.performActionsOnAmazonPage(AmazonPage.java:41)
-	at com.crm.qa.testcases.AmazonPageTest.performActionsOnAmazonPage(AmazonPageTest.java:45)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- performActionsOnAmazonPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.AmazonPageTest@7e7be63f]" started-at="2022-06-12T20:36:02Z" name="tearDown" finished-at="2022-06-12T20:36:03Z" duration-ms="778" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.crm.qa.testcases.AmazonPageTest -->
-      <class name="com.crm.qa.testcases.AmazonGpPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.AmazonGpPageTest@5acf93bb]" started-at="2022-06-12T20:34:33Z" name="setUp" finished-at="2022-06-12T20:34:38Z" duration-ms="5812" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyAmazonGpPageTitleTest()[pri:1, instance:com.crm.qa.testcases.AmazonGpPageTest@5acf93bb]" started-at="2022-06-12T20:34:38Z" name="verifyAmazonGpPageTitleTest" finished-at="2022-06-12T20:34:47Z" duration-ms="8239" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAmazonGpPageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.AmazonGpPageTest@5acf93bb]" started-at="2022-06-12T20:34:47Z" name="tearDown" finished-at="2022-06-12T20:34:47Z" duration-ms="756" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.AmazonGpPageTest@5acf93bb]" started-at="2022-06-12T20:35:02Z" name="setUp" finished-at="2022-06-12T20:35:07Z" duration-ms="4784" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="clickSamsungCheckbox()[pri:2, instance:com.crm.qa.testcases.AmazonGpPageTest@5acf93bb]" started-at="2022-06-12T20:35:07Z" name="clickSamsungCheckbox" finished-at="2022-06-12T20:35:08Z" duration-ms="1625" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickSamsungCheckbox -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.AmazonGpPageTest@5acf93bb]" started-at="2022-06-12T20:35:08Z" name="tearDown" finished-at="2022-06-12T20:35:09Z" duration-ms="692" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.crm.qa.testcases.AmazonGpPageTest -->
-    </test> <!-- Amazon App Test Cases -->
-  </suite> <!-- Amazon Application Test Automation Test Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

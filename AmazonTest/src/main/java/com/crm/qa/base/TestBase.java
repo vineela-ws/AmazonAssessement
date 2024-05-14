@@ -26,7 +26,7 @@ public class TestBase {
 	public TestBase(){
 		try {
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream("C:\\Users\\santh\\Desktop\\Amazon\\src\\main\\java\\com\\crm\\qa\\config\\config.properties");		
+			FileInputStream ip = new FileInputStream("C:\\Users\\91628\\git\\AmazonAssessement\\AmazonTest\\src\\main\\java\\com\\crm\\qa\\config\\config.properties");		
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
@@ -40,7 +40,7 @@ public class TestBase {
 		String browserName = prop.getProperty("browser");
 		
 		if(browserName.equals("chrome")){
-			System.setProperty("webdriver.chrome.driver", "C:\\Automation\\chromedriver_win32\\chromedriver.exe");	
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\91628\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");	
 			driver = new ChromeDriver(); 
 		}
 		else if(browserName.equals("FF")){
